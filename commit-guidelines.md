@@ -22,7 +22,7 @@ Examples:
 - :package: `:package:` - Adding new packages
 - :green_heart: `:green_heart:` - Fixes CI Build
 - :art: `:art:` - Adding UI components
-- :white_check_mark: `:white_check_mark:` Adding tests
+- :white_check_mark: `:white_check_mark:` Adding or modifying tests
 - :sparkles: `:sparkles:` - Adding a new feature
 - :construction: `:construction:` - Refactor
 - :lipstick: `:lipstick:` - Cosmetic changes to code style
