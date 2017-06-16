@@ -16,6 +16,6 @@ This repository contains documentation relevant for anyone in the Toggl mobile t
 
 Each app may have additional app-specific documentation, like architectural and code style guidelines. You can find those linked from the respective apps' readme files:
 
-- Toggl Mobile
-- [Supertoday](https://github.com/toggl/superday#-superday "Superday repository")
-- [Stopwatch](https://github.com/toggl/stopwatch/blob/master/Readme.md#toggl-ios-stopwatch-app "Toggl iOS Stopwatch App")
+- [Toggl Mobile](https://github.com/toggl/mobileapp#toggl-mobile-app- "Toggl Mobile App repository")
+- [Superday](https://github.com/toggl/superday#-superday- "Superday repository")
+- [Stopwatch](https://github.com/toggl/stopwatch/blob/master/Readme.md#toggl-ios-stopwatch-app "Toggl iOS Stopwatch App repository")
