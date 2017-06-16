@@ -116,3 +116,17 @@ Since each commit on master is a merge commit and corresponds to a public releas
 #### Changelogs
 
 Each release tag created on GitHub should have a succinct and clear, yet exhaustive changelog. In the case of pre-release tags, the changelog should include the changes since the previous pre-release of the same release, or the previous release if this is the first pre-release of this release. In the case of release tags, the changelog should include the changes since the previous release, and does not have do include fixes for bugs that were not present in that previous release.
+
+## How to make a release
+
+These are the general steps one needs to follow to put a new build in the App Store:
+- Create a release branch from develop. This contains all the changes wanted in this new version. The name of this branch usually is the name of the milestone.
+- Commit the new version and/or build number change to the release branch. (For some projects, like Superday, there's a script for this)
+- Push this branch to GH.
+- Create a prerelase in GH on this branch with the tag "*.*.*-pre?". Where "?" is the prerelease number, starting with "1". Bitrise will build automatically. Team starts testing.
+- If there are any bugs, PRs will be made against this branch, creating a new prerelease once they are merged, testing resumes then.
+- If everything works, create a PR for that branch into master, add the complete, correct and accumulated change log of all changes since the last release (not fixes to bugs introduced in this release)
+- When approved, merge but don't squash, also don´t delete the branch.
+- Create a relase in GH on master with the tag "*.*.*". Bitrise will build automatically. The changelog should be the same as in the PR.
+- Create another PR from the same branch into develop. When approved merge but don't squash.
+- Upload the bitrise build to the App Store / Play Store.
