@@ -25,15 +25,27 @@ It is the contributor's responsibility to make sure the merging branch is up to 
 
 Code review is one of the primary ways we ensure the quality of the apps. **Code can only be merged into the main branches of the repository if it has been read, understood, analysed, and accepted as correct by at least one other developer.** For larger features feedback from multiple developers might be needed to ensure correctness.
 
-In principle anyone can review any pull request, if they feel confident to do so. Optionally, the author of the pull request, the tech lead, or existing reviewers may request for reviews from specific people, based on their familiarity of experience with the affected systems.
+### Who reviews
+
+In principle anyone can review any pull request, if they feel confident to do so. Optionally, the author of the pull request, the tech lead, or existing reviewers may request for reviews from specific people, based on their familiarity or experience with the affected systems.
 
 If more than one review is requested, the pull request may only be merged if all reviewers have accepted it.
 
-Developers should be thorough and critical with both their own code, but especially when reviewing. Requested changes should only be implemented if the contributor agrees with them. Otherwise the change should be discussed.
+### How to review
+
+Developers should be thorough and critical with both their own code, but especially when reviewing. Requested changes should only be implemented if the contributor agrees with them. Otherwise the change should be discussed until there is consensus.
 
 A pull request should only be accepted after a full review and if the reviewer is confident of the code's correctness and conformity to our guidelines.
 
+### Making changes to pull requests
+
 After a pull request has been approved it should not be changed except for bringing it up to date with the base branch, assuming the merge does not call into question the correctness of the pull request. Any other changes have to be explicitly agreed upon by reviewers though it is highly preferable to only accept the pull request once it is complete and up to date.
+
+The pull request author should address all comments by reviewers even if they accept a change request without argument so that everyone can see that there is consensus.
+
+When the pull request author thinks they have addressed all comments and change requests sufficiently, they should dismiss the existing reviews stating this reason. This will mark the pull request as 'needing review', making it clear it is once again ready to be reviewed.
+
+This process should never be used to dismiss critical reviews to merge a pull request that was not approved by one of the reviewers. Further, every dismissed reviewer has to approve the pull request again, before it may be merged.
 
 ## Merging pull requests
 
