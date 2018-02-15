@@ -36,13 +36,18 @@ Unless an issue is invalidated otherwise, it should only be closed by merging a 
 
 We use labels sparingly to give further information to issues. Here are the common labels we currently use, and when to use them.
 
+- `blocking` - the issue or pull request blocks other work in the current milestone  
 - `bug` - the issue refers to a functional bug inside the app; these usually have high priority
-- `glitch` - a non-functional issue in the app, usually related to misbehaving UI
 - `cleanup` - deals with refactoring, or other changes that should not change how the app functions
-- `test-week` - this issue can be worked on by someone with little experience with the app's intricacies
-- `review-pending` - the issue has a pull request, which is awaiting review
+- `crash` - a serious issue that crashes the application
+- `critical` - the issue or pull request has the highest priority
+- `glitch` - a non-functional issue in the app, usually related to misbehaving UI
 - `needs-design` - the issue still needs UI/UX design
 - `on-hold` - the issue cannot be resolved at the moment, or is suspected to be invalid and awaits further testing
+- `pending-review` - the issue has a pull request, which is awaiting review
+- `snoozed` - the issue was moved from previous week's milestone to the next week's milestone, so it has a higher priority than the rest
+- `test-week` - this issue can be worked on by someone with little experience with the app's intricacies
+- `wip` - work in progress; usually applied to pull requests that are not ready for review
 
 
 ## Further documentation
