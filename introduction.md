@@ -8,7 +8,7 @@ Besides GitHub, the Toggl mobile team organizes and communicates almost exclusiv
 
 Feel free to talk to anyone privately, but in general it is best to ask questions and have discussions in **#mobile-dev** so that others can weigh in.
 
-Most of our work is organised through GitHub issues and milestones. In principle you can work on any issue, but we usually mark several that are easy to pick up with the `test-week` label. For more details on our precise workflows, please check [further documentation](https://github.com/toggl/mobile-docs#toggl-mobile-team-documentation "Toggl Mobile Team Documentation").
+Most of our work is organised through GitHub issues and milestones. In principle you can work on any issue, but we usually mark several that are easy to pick up with the `up-for-grabs` label. For more details on our precise workflows, please check [further documentation](https://github.com/toggl/mobile-docs#toggl-mobile-team-documentation "Toggl Mobile Team Documentation").
 
 
 ## Get Started 

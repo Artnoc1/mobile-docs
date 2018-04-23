@@ -45,8 +45,8 @@ We use labels sparingly to give further information to issues. Here are the comm
 - `needs-design` - the issue still needs UI/UX design
 - `on-hold` - the issue cannot be resolved at the moment, or is suspected to be invalid and awaits further testing
 - `pending-review` - the issue has a pull request, which is awaiting review
-- `snoozed` - the issue was moved from previous week's milestone to the next week's milestone, so it has a higher priority than the rest
-- `test-week` - this issue can be worked on by someone with little experience with the app's intricacies
+- `snoozed` - the issue was moved from previous week's milestone to the current week's milestone, so it has a higher priority than the rest
+- `up-for-grabs` - this issue can be worked on by someone with little experience with the app's intricacies (e.g.: Test weekers)
 - `wip` - work in progress; usually applied to pull requests that are not ready for review
 
 
