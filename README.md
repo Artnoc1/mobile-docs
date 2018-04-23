@@ -9,6 +9,7 @@ This repository contains documentation relevant for anyone in the Toggl mobile t
 - [GitHub workflow](https://github.com/toggl/mobile-docs/blob/develop/github-workflow.md "GitHub Workflow") - issues, PRs, and more
     - [Pull request etiquette](https://github.com/toggl/mobile-docs/blob/develop/pull-request-etiquette.md "Pull Request Etiquette")
     - [Commit guidelines](https://github.com/toggl/mobile-docs/blob/develop/commit-guidelines.md "Commit Guidelines")
+    - [Code guidelines](https://github.com/toggl/mobile-docs/blob/develop/code-guidelines.md "Code Guidelines")
 - [SuperFlow](https://github.com/toggl/mobile-docs/blob/develop/superflow.md "SuperFlow: Toggl Mobile's branching work flow") - our Git(hub) branching and release flow
 
 
