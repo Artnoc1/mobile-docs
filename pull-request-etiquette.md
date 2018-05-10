@@ -52,3 +52,7 @@ This process should never be used to dismiss critical reviews to merge a pull re
 Once a pull request is up to date with the base branch and approved, it should only be merged by the original contributor, unless they explicitly state that a reviewer is allowed to merge.
 
 When merging, consider which type of merge supported by GitHub is the best choice. Most pull requests should be small enough to be squashed into a single commit that still follows the [commit guidelines](https://github.com/toggl/mobile-docs/blob/develop/commit-guidelines.md "Commit Guidelines"). If this can not be done, prefer merging over rebasing to keep history intact.
+
+### Transferring ownership
+
+Should the creator of a pull request be unable to finish it, they can transfer ownership of it to someone else by assigning them to the pull request. In that case, the new owner takes on the responsibility of finishing and merging the pull request and an approval from a third developer is needed.

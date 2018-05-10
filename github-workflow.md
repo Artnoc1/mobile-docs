@@ -32,6 +32,8 @@ When starting work on an issue, the respective developer should assign the issue
 
 Unless an issue is invalidated otherwise, it should only be closed by merging a pull request. When opening such a pull request, the issue should be marked with the `pending-review` label.
 
+If a developer is unable to finish an issue or otherwise stops working on it, they should unassign themself from it so that someone else can continue the work.
+
 ### Labels
 
 We use labels sparingly to give further information to issues. Here are the common labels we currently use, and when to use them.
