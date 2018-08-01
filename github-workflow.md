@@ -26,7 +26,9 @@ We try to schedule our work ahead by at least 1-2 weeks using milestones, to mak
 
 We try to create issues for any work on the respective app.
 
-Issues are as specific and clear as possible, and should contain or link to all the information needed to start working on them immediately.
+Issues are as specific and clear as possible, and should contain all the information needed to start working on them immediately.
+
+To help us write good issues, we use [issue templates](https://help.github.com/articles/about-issue-and-pull-request-templates/). You can choose the appropriate template when creating a new issue and GitHub will populate the description automatically. This provides a common structure which we can fill in with specific details to allow anybody checking or working on the issue to quickly understand the needed changes and their context.
 
 When starting work on an issue, the respective developer should assign the issue to themselves to let others know they are working on it. In general, before starting work on a new issue, those already started on should be resolved first.
 

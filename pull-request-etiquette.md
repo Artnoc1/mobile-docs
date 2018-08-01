@@ -19,6 +19,8 @@ All code changes to our apps are added using GitHub's pull requests. To be able 
     - Add references to related issues/pull requests to the description
         - If the pull request closes an issue, [include `Closes #issue`](https://github.com/blog/1506-closing-issues-via-pull-requests)
 
+To help us write good pull request descriptions, we use [pull request templates](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/) which automatically populate the description when opening a pull request on GitHub. This provides a common structure which we can fill in with specific details to allow both reviewers and those checking the pull request in the future to quickly understand the changes and their context.
+
 It is the contributor's responsibility to make sure the merging branch is up to date with the base branch. If you would like feedback on a work-in-progress feature, feel free to create a pull request and mark it with the `wip` label. Make sure to comment on what kind of feedback you are looking for.
 
 ## Code review
