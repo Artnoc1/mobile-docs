@@ -8,7 +8,7 @@ Besides GitHub, the Toggl mobile team organizes and communicates almost exclusiv
 
 Feel free to talk to anyone privately, but in general it is best to ask questions and have discussions in **#mobile-dev** so that others can weigh in.
 
-Most of our work is organised through GitHub issues and milestones. In principle you can work on any issue, but we usually mark several that are easy to pick up with the `up-for-grabs` label. For more details on our precise workflows, please check [further documentation](https://github.com/toggl/mobile-docs#toggl-mobile-team-documentation "Toggl Mobile Team Documentation").
+Most of our work is organised through GitHub issues and projects. In principle you can work on any issue, but we usually mark several that are easy to pick up with the `up-for-grabs` label. For more details on our precise workflows, please check [further documentation](https://github.com/toggl/mobile-docs#toggl-mobile-team-documentation "Toggl Mobile Team Documentation").
 
 
 ## Get Started 
@@ -17,7 +17,7 @@ Here is a quick checklist to get you started:
 - _(test weekers only)_ Make sure to track all the time you work for us with Toggl. You will be paid according to the report you send us after your test week.
 - Read at least the repository's readme, and if needed any documentation linked from there to familiarize yourself with our best practices.
 - Clone the repository on your machine and make sure the app is running properly.
-- Check out the current milestones, to get an overview of what we are working on right now.
+- Check out the current projects, to get an overview of what we are working on right now.
 - When you start working on an issue, make sure to assign it to yourself so everyone knows what you are working on.
 - Please ask questions if anything is unclear, and make sure to communicate what you are working on.
 

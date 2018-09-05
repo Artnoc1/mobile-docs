@@ -13,13 +13,13 @@ Our main priorities when designing our workflow are, from most to least importan
     - Have few hoops in the way of getting things done
 
 
-## Milestones
+## Projects
 
-As our highest level of organisation on GitHub, we use milestones. Each milestone either corresponds to an upcoming release, or groups issues related to a theme or major feature.
+As our highest level of organisation on GitHub, we use projects. Each project either corresponds to an upcoming release, or groups issues related to a theme or major feature.
 
-In general, there is always one primary milestone per app, which includes all the issues relevant at the time. **Issues inside milestones are sorted** from highest to lowest priority, and should be worked on in that order. Milestones usually have deadlines, which indicate the time at which we want all their issues resolved and closed.
+There usually are several active projects per app, which includes all the issues relevant at the time. **Issues inside projects are sorted** from highest to lowest priority, and should be worked on in that order. Project usually have deadlines, which indicate the time at which we want all their issues resolved and closed.
 
-We try to schedule our work ahead by at least 1-2 weeks using milestones, to make sure things can always keep moving.
+We try to schedule our work ahead by at least a month using projects, to make sure things can always keep moving.
 
 
 ## Issues
@@ -40,7 +40,7 @@ If a developer is unable to finish an issue or otherwise stops working on it, th
 
 We use labels sparingly to give further information to issues. Here are the common labels we currently use, and when to use them.
 
-- `blocking` - the issue or pull request blocks other work in the current milestone  
+- `blocking` - the issue or pull request blocks other work  
 - `bug` - the issue refers to a functional bug inside the app; these usually have high priority
 - `cleanup` - deals with refactoring, or other changes that should not change how the app functions
 - `crash` - a serious issue that crashes the application
@@ -49,7 +49,6 @@ We use labels sparingly to give further information to issues. Here are the comm
 - `needs-design` - the issue still needs UI/UX design
 - `on-hold` - the issue cannot be resolved at the moment, or is suspected to be invalid and awaits further testing
 - `pending-review` - the issue has a pull request, which is awaiting review
-- `snoozed` - the issue was moved from previous week's milestone to the current week's milestone, so it has a higher priority than the rest
 - `up-for-grabs` - this issue can be worked on by someone with little experience with the app's intricacies (e.g.: Test weekers)
 - `wip` - work in progress; usually applied to pull requests that are not ready for review
 
