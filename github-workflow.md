@@ -53,6 +53,10 @@ We use labels sparingly to give further information to issues. Here are the comm
 - `wip` - work in progress; usually applied to pull requests that are not ready for review
 
 
+## Pull Requests
+
+To distinguish a _release_ pull request from an ordinary pull requests and thus make the life of reviewers a bit easier, the author should add the `release` label to the pull request.
+
 ## Further documentation
 
 For more detailed information on how to submit changes through pull request, how to structure commits, and the branching model we use, please check the following links.
