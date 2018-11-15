@@ -4,7 +4,7 @@ This document is for test-weekers, potential and new hires, as well as those gen
 
 ## Working in the Toggl mobile team
 
-Besides GitHub, the Toggl mobile team organizes and communicates almost exclusively in **#mobile-dev** on Slack. The team is led by **@heidi** (team-lead and designer) and **@paul** (technical lead), and you can find all other team members in the user group **@mobileteam**. 
+Besides GitHub, the Toggl mobile team organizes and communicates almost exclusively in **#mobile-dev** on Slack. The team is led by **@paul** (team lead), and you can find all other team members in the user group **@mobileteam**. 
 
 Feel free to talk to anyone privately, but in general it is best to ask questions and have discussions in **#mobile-dev** so that others can weigh in.
 
