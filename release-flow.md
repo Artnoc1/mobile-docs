@@ -8,12 +8,13 @@ Releasing our apps is done in a couple of steps.
 1. [Start the release](#1-start-the-release)
 	1. Create a release branch, pull request and changelog
 2. [Test the release](#2-test-the-release)
-	1. Create a release tag
-	2. Let Bitrise build the tagged release commit and upload to the respective store
-	3. Ensure that the build is available for internal testing
-	4. Communicate the build's details with mobile and support teams
-	5. Coordinate testing and await results
-	6. If necessary, fix issues against the release branch
+	1. Create a test issue
+	2. Create a release tag
+	3. Let Bitrise build the tagged release commit and upload to the respective store
+	4. Ensure that the build is available for internal testing
+	5. Communicate the build's details with mobile and support teams
+	6. Coordinate testing and await results
+	7. If necessary, fix issues against the release branch
 		- go back to 2.1
 3. [Release to users](#3-release-to-users)
 	1. Copy changelog and select the correct build on the store
@@ -23,7 +24,7 @@ Releasing our apps is done in a couple of steps.
 
 Each of these steps, as well as differences between the two platforms are broken down further below.
 
-Note that this is an extension of the steps detailed in our [SuperFlow branching model documentation](https://github.com/toggl/mobile-docs/blob/develop/superflow.md), which also includes a handy summary on [How to make a release](https://github.com/toggl/mobile-docs/blob/develop/superflow.md#how-to-make-a-release).
+Note that this is an extension of the steps detailed in our [SuperFlow branching model documentation](https://github.com/toggl/mobile-docs/blob/develop/superflow.md) specifically for App/Play Store releases.
 
 
 ## Release manager
@@ -102,13 +103,17 @@ For example:
 
 ## 2. Test the release
 
-### 2.1. Create a release tag
+### 2.1. Create a test issue
+
+Create a new issue for the release using the `Manual Test Template`. Add a new section to the list with tests specific to this release. Add a reference to the release PR (so that the progress of the tests is visible from the PR).
+
+### 2.2. Create a release tag
 
 Our versioning scheme is again detailed in the SuperFlow documentation. There is also a section that details the exact [format of release tags](https://github.com/toggl/mobile-docs/blob/develop/superflow.md#release-tags).
 
 Make sure to not only create the tag, but also the corresponding GitHub release, which should include the changelog.
 
-### 2.2. Let Bitrise build the tagged release commit and upload to the respective store
+### 2.3. Let Bitrise build the tagged release commit and upload to the respective store
 
 After creating the correctly formatted release tag, Bitrise will automatically build the respective release.
 
@@ -118,25 +123,25 @@ After creating the correctly formatted release tag, Bitrise will automatically b
 
 After successful (and unsuccessful) builds and uploads, Bitrise will post a status message to Slack.
 
-### 2.3. Ensure that the build is available for internal testing
+### 2.4. Ensure that the build is available for internal testing
 
 **Android:** Once the build is uploaded to the Play Store, it is automatically available for download through the Play Store by everyone on the internal testing track.
 
 **iOS:** Once the build is uploaded to App Store Connect, Apple takes 5-15 minutes to process it. During that time you can see the build status in the Activity tab. Once processed, the app is available to all App Store Connect users who signed up to our TestFlight. They will get a notification from TestFlight as well.
 
-### 2.4. Communicate the build's details with mobile and support teams
+### 2.5. Communicate the build's details with mobile and support teams
 
 Ping @mobileteam and @support in the #mobile-support channel and inform them about the new build available for internal testing. Include the platform, version number, and changelog.
 
 Emphasize what features need special attention while testing, whether they are already listed in the changelog or not. Also mention any potential known issues or other things to be aware of.
 
-### 2.5. Coordinate testing and await results
+### 2.6. Coordinate testing and await results
 
 Continue communicating with developers, support and QA to make sure the release is tested sufficiently. Make sure everyone is aware of the important changes, known issues, etc.
 
 Unless this is a small hotfix release, make sure the entire app is tested. Every feature, different use cases and different environments and devices should be checked to ensure the stability of the release.
 
-### 2.6. If necessary, fix issues against the release branch
+### 2.7. If necessary, fix issues against the release branch
 
 If issues are found during testing, make sure they are well documented using GitHub issues.
 
@@ -144,7 +149,7 @@ Crashes and other critical bugs as well as any other issues introduced since the
 
 Less critical issues, especially those that already existed in previous releases do not have to be fixed at this point. This decision is up to the release manager and teamlead.
 
-After fixing some or all issues, repeat the steps 2.1 - 2.5 until no more issues are found.
+After fixing some or all issues, repeat the steps 2.1 - 2.6 until no more issues are found.
 
 
 ## 3. Release to users

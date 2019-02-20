@@ -103,13 +103,4 @@ Each release tag should be accompanied by a GitHub release which includes the ch
 
 ## How to make a release
 
-From the above it follows that these are the steps to release a new version of the app:
-
-- Create a release branch from develop. This contains all the changes wanted in this new version.
-- Update the version number and commit it to the release branch.
-- Push this branch to GitHub.
-- Create a pull request for this release into `develop` so that it is easy to follow changes for it. This pull request should include the full changelog of the release.
-- Create a GitHub release and release tag on the release branch to trigger the first release candidate for testing.
-- If there are any bugs, pull requests will be made against this branch. Create a new release tag and candidate once they are merged, and resume testing.
-- If the app was sufficiently tested, everything works fine, and the release pull request is approved, release the app to users.
-- Once the app is released, **merge the pull request into develop using a merge commit**.
+Refer to the [App Release Flow](https://github.com/toggl/mobile-docs/blob/develop/release-flow.md) for detailed instructions.
