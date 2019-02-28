@@ -6,7 +6,8 @@
 Releasing our apps is done in a couple of steps.
 
 1. [Start the release](#1-start-the-release)
-	1. Create a release branch, pull request and changelog
+	1. Ensure that there are no more issues on the current release project
+	2. Create a release branch, pull request and changelog
 2. [Test the release](#2-test-the-release)
 	1. Create a test issue
 	2. Create a release tag
@@ -36,7 +37,11 @@ If necessary, a new release manager can be assigned to a release by assigning th
 
 ## 1. Start the release
 
-### 1.1. Create a release branch, pull request and changelog
+### 1.1 Ensure that there are no more issues on the current release project
+
+As mentioned in the [Release Manager role documentation](https://www.notion.so/Release-manager-acaa6fab78644e9db4cd6beff03667a8#8563e5e2a5c74fcf9a5ae05d35088e47), if for any reason a release still has work on it you should communicate with the teamlead to discuss what's the best course of action. Don't start a release until the release project is empty and don't just move work to the next release: discuss with the team lead to find the optimal solution.
+
+### 1.2. Create a release branch, pull request and changelog
 
 The details of how to create a release branch and pull request can be found in the SuperFlow documentation.
 
