@@ -43,7 +43,7 @@ As mentioned in the [Release Manager role documentation](https://www.notion.so/R
 
 ### 1.2. Create a release branch, pull request and changelog
 
-The details of how to create a release branch and pull request can be found in the SuperFlow documentation.
+The details of how to create a release branch and pull request can be found in the [SuperFlow](https://github.com/toggl/mobile-docs/blob/develop/superflow.md#release-workflow) documentation.
 
 For writing the changelog, follow these guidelines:
 
