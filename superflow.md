@@ -90,16 +90,24 @@ Each release tag should point to a commit with a unique build number on a releas
 
 The first release tags on release and hot fix branches are named `*.*` and `*.*.*` respectively. Additional release tags are appended with a `-#` count, starting at `-2`. Further, depending on the app, prefixes may apply as well.
 
+Starting with version 2.0 of our apps, tags are prefixed with the platform name, that is `android` or `ios`, before that we used the prefixes `giskard` and `daneel`.
+
 So for example, for the [main Toggl app](https://github.com/toggl/mobileapp) release tags look like:
 
-- `giskard-0.2` (second android beta)
-- `daneel-1.5`, `daneel-1.5-2`, `daneel-1.5-3` (three candidates for iOS release 1.5)
-- `daneel-1.5.1`, `daneel-1.5.1-2` (release candidates for a follow up bug fix)
-- `daneel-1.5.2` (another bug fix)
-- `daneel-1.6` (the next proper release)
+- `daneel-1.10` (tag before 2.0)
+- `giskard-1.6` (tag before 2.0)
+
+- `android-2.0`, `android-2.0-1`, `android-2.0-2` (three candidates for Android release 2.0)
+- `android-2.0.1`, `android-2.0.1-2` (release candidates for a follow up bug fix)
+- `android-2.0.2` (another bug fix)
+- `android-2.1` (the next proper release)
+
+- `ios-2.0`, `ios-2.0-1`, `ios-2.0-2` (three candidates for iOS release 2.0)
+- `ios-2.0.1`, `ios-2.0.1-2` (release candidates for a follow up bug fix)
+- `ios-2.0.2` (another bug fix)
+- `ios-2.1` (the next proper release)
 
 Each release tag should be accompanied by a GitHub release which includes the changelog since the previous release tag.
-
 
 ## How to make a release
 

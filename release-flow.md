@@ -49,7 +49,7 @@ For writing the changelog, follow these guidelines:
 
 #### Look at ALL changes since the previous release
 
-The best way to do this is asking GitHub to compare changes between your release branch or tag and the previous commit tag. As an example, see this comparison made for the Giskard 1.4 (Neon) release: https://github.com/toggl/mobileapp/compare/giskard-1.3.2...giskard-1.4
+The best way to do this is asking GitHub to compare changes between your release branch or tag and the previous commit tag. As an example, see this comparison made for the Android 2.1 release: https://github.com/toggl/mobileapp/compare/android-2.0.1...android-2.1
 
 *Make sure that you check the exact previous release tag, since there may have been multiple tags for the last version!*
 
