@@ -51,7 +51,7 @@ Release bug fix branches are branched off of a release branch if bugs are found 
 
 Hot fix branches are branched off of the latest release tag in the case of a critical bug in a released build. They are the second of two ways of creating a new public release.
 
-In most cases the bug can be fixed directly on the branch and does not require pull requests.
+In most cases the bug can be fixed directly on the hot fix branch and does not require pull requests.
 
 After incrementing version and/or build numbers, release tags can be created on the hot fix branch to trigger a release build for testing.
 
