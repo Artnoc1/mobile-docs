@@ -41,7 +41,11 @@ If necessary, a new release manager can be assigned to a release by assigning th
 
 As mentioned in the [Release Manager role documentation](https://www.notion.so/Release-manager-acaa6fab78644e9db4cd6beff03667a8#8563e5e2a5c74fcf9a5ae05d35088e47), if for any reason a release still has work on it you should communicate with the teamlead to discuss what's the best course of action. Don't start a release until the release project is empty and don't just move work to the next release: discuss with the team lead to find the optimal solution.
 
-### 1.2. Create a release branch, pull request and changelog
+### 1.2. Create a release checklist issue
+
+Create a new issue for the release using the `Release checklist`. That issue is an easy way for the release manager to know what needs to be done next without leaving the context of the main app's repository. It is also way of giving people who are not directly involved in the release an idea of how much of the release process has been done and how much of it is left to do.
+
+### 1.3. Create a release branch, pull request and changelog
 
 The details of how to create a release branch and pull request can be found in the [SuperFlow](https://github.com/toggl/mobile-docs/blob/develop/superflow.md#release-workflow) documentation.
 
@@ -153,6 +157,8 @@ If issues are found during testing, make sure they are well documented using Git
 Crashes and other critical bugs as well as any other issues introduced since the last release have the highest priority and should be assigned to the release's GitHub project right away. The release should not go public until all such issues are resolved and can no longer be reproduced.
 
 Less critical issues, especially those that already existed in previous releases do not have to be fixed at this point. This decision is up to the release manager and teamlead.
+
+Make sure to also check AppCenter to see if there are no new crashes in the internal releases before releasing to users.
 
 After fixing some or all issues, repeat the steps 2.1 - 2.6 until no more issues are found.
 
