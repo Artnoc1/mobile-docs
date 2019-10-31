@@ -195,7 +195,7 @@ If you are convinced the app is stable, and at least 20%+ of users have updated 
 
 When starting the phased rollout, notify the mobile and support team of this. Mention the platform, release version, give your expectations for the rollout schedule, and post the changelog again.
 
-During phased rollout, keep both teams up to date at least every other day. Additionally make sure everyone is notified if you pause the phased release or unforeseen issues emerge.
+During phased rollout, keep both teams up to date at least every other day. If multiple posts are needed during a single day for whatever reason, update in a thread on the first message, and don’t ping again. Additionally make sure everyone is notified if you pause the phased release or unforeseen issues emerge.
 
 When the phased released reaches 100%, again make an announcement including all the information above.
 
