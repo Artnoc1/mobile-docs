@@ -22,6 +22,7 @@ Releasing our apps is done in a couple of steps.
 	2. Release with phased rollout
 	3. Communicate phased rollout to mobile and support teams
 	4. Merge the release branch
+	5. Clean up the release project
 
 Each of these steps, as well as differences between the two platforms are broken down further below.
 
@@ -204,3 +205,14 @@ When the phased released reaches 100%, again make an announcement including all 
 The release branch should be merged into `develop` as soon the release goes out to the first user. From that point on, any following release will have its own release branch and version number.
 
 **Make sure to merge the release branch using a MERGE COMMIT** as explained in the SuperFlow documentation. This makes sure that the release tags are part of the history of the main branch instead of dangling to the sides. That allows for the easy changelog generation above and also creates a pretty git log with most tools.
+
+### 3.5. Clean up the release project
+
+Once the release is fully rolled out, and we can be sure that we most likely won't need a hotfix, there should be no more open issues in the release project (with the exception of the release checklist). If there are, triage them as follows:
+
+- If the issue is done or will no longer be relevant after the release, close it.
+- If we want to work on the issue soon (e.g. a bug fix that we didn't want a hotfix for), talk to other release managers and get the issue scheduled for the appropriate release.
+- If the issue isn't important enough to be scheduled right away but is something we definitely want to do, add it to the backlog.
+- Remove any other issues from the release project.
+
+Once this is done, close the release projects together with the release checklist issue.
